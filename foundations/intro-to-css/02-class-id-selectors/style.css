@@ -11,11 +11,11 @@
  */
 
 .odd_class {
-    background-color: #e88080;
+    background-color: rgb(232, 128, 128);
     font-family: "Verdana", "DejaVu Sans", sans-serif;
 }
 
-.odd_class.third {
+.font_24 {
     font-size: 24px;
 }
 
@@ -25,7 +25,6 @@
 }
 
 #second_id {
-    background-color: #6df771;
-    font-size: 24px;
+    background-color: hsl(122, 90%, 70%);
     font-weight: bold;
 }
