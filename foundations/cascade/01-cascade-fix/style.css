@@ -40,6 +40,7 @@ body {
 }
 
 /* My browser shows these divs with thinner text than the example; not sure if that's just differences in browser of if I've missed something */
+/* EDIT AFTER FIRST COMMIT: The solution displays absolutely identical to this file, success! That being said, the solution uses more methods, mines feels a little bit same-y. */
 div.text {
   color: rgb(0, 0, 0);
   font-size: 22px;
