@@ -37,7 +37,8 @@ body {
   align-items: center;
   justify-content: center;
   /* Disable flex-shrink to stop the icon getting smushed */
-  flex: 1 0 auto;
+  /* flex: 1 0 auto; */
+  flex-shrink: 0;
 }
 
 .close-button {
