@@ -1,5 +1,6 @@
 body {
   font-family: 'Courier New', Courier, monospace;
+  text-align: center;
 }
 
 img {
@@ -10,9 +11,6 @@ img {
 .title {
   font-size: 36px;
   font-weight: 900;
-  /* Could do this with 'margin: 0 auto;', but doing a single-item flexbox instead for the sake of the task. */
-  display: flex;
-  justify-content: center;
   margin-bottom: 32px;
 }
 
@@ -27,11 +25,6 @@ img {
     flex: 1 1 200px;
     flex-direction: column;
     align-items: center;
-}
-
-.text {
-    /* Is this cheating? I don't know. Hopefully the solution has this as well. */
-    text-align: center;
 }
 
 /* do not edit this footer */
