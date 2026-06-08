@@ -18,6 +18,7 @@ body {
     color: white;
     font-size: 32px;
     font-weight: 900;
+    padding-left: 16px;
 }
 
 .footer {
@@ -32,7 +33,6 @@ body {
     width: 300px;
     background: royalblue;
     box-sizing: border-box;
-    flex-shrink: 0;
 }
 
 .card {
@@ -54,13 +54,14 @@ body {
     flex-wrap: wrap;
 }
 
-.title {
-    padding-left: 16px;
-}
 
 ul {
     list-style: none;
     padding: 16px;
+}
+
+li {
+    margin-bottom: 16px;
 }
 
 a {
